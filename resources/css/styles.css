@@ -1,0 +1,263 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+footer {
+    background-color: rgb(224, 142, 0);
+    font-size: x-large;
+    height: 6rem;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+}
+
+
+.bgimage {
+    width: 100%;
+    height: 500px;
+    background: url(../../../resources/assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.bgimage h3 {
+    position: relative;
+    color: rgb(63, 1, 1);
+    text-shadow: 1px 1px #333;
+}
+
+.bgimage h6 {
+    position: relative;
+    font-size: 3rem;
+    color: rgba(121, 19, 255, 0.836);
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.781);
+
+
+}
+
+.bgimage span {
+    color: rgba(233, 24, 66, 0.904);
+    font-family: 'Love Light', cursive;
+    font-size: large;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5)
+}
+
+.admin-view {
+    background-color: rgba(157, 219, 173, 0.144);
+}
+
+#sidebar-text-link {
+    color: rgba(56, 38, 0, 0.788);
+    font-family: 'Trebuchet MS', sans-serif;
+    white-space: nowrap;
+    font-weight: bolder;
+    animation: forwards;
+    overflow: hidden;
+}
+#dash-card{
+    background-color: rgb(252, 199, 109);
+}
+
+#card-container {
+    position: relative;
+    
+}
+
+#sidebar-full {
+   height: 200vh;
+}
+
+#main-text {
+    color: #000000;
+    font-weight: 200;
+    font-size: 29px;
+    line-height: 0.65;
+    font-family: 'Lobster', cursive;
+}
+
+#main-text:hover {
+    color: rgb(224, 142, 0);
+    font-weight: 500;
+    font-size: 30px;
+
+
+}
+
+#main-icon {
+    color: rgb(224, 142, 0);
+    position: relative;
+    margin-right: .5rem;
+}
+
+.admin-view #admin-area {
+    min-height: 100vh;
+    width: fit-content;
+}
+
+.admin-view .admin-links {
+    background-color: #ffffff;
+}
+
+.admin-view .admin-links * {
+    background-color: #ffffff;
+}
+
+.admin-view .admin-links li {
+    color: #fff;
+    border-color: #fff;
+}
+
+
+.admin-view .admin-links li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    border-color: #fff;
+    text-decoration: #fff;
+}
+
+.admin-view .admin-links li:hover {
+    opacity: .9;
+    background-color: rgba(255, 225, 173, 0.856);
+}
+
+.admin-view .admin-links li.active {
+    opacity: .9;
+    background-color: rgb(236, 150, 0);
+}
+
+
+
+#userInputContainer>button {
+
+    background-color: rgb(245, 159, 11);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+#item_id:focus {
+    box-shadow: none !important;
+    border: 3px solid rgba(245, 159, 11, 0.747);
+}
+
+#quantity:focus {
+    box-shadow: none !important;
+    border: 3px solid rgba(245, 159, 11, 0.747);
+}
+
+#create-new>a {
+    background-color: rgb(245, 159, 11);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+#table-container {
+    position: relative;
+    width: 100vw;
+}
+
+#profile-pic {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 350px;
+    left: 450px;
+}
+
+@media screen and (min-width: 100px) {
+
+    footer{
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    #card-container {
+        top: -130px;
+        right: 65px;
+    }
+
+    #profile-pic {
+        position: relative;
+        bottom: 350px;
+        left: 300px;
+    }
+
+    #table-container {
+        position: relative;
+        bottom: 170px;
+        right: 40px;
+        width: auto;
+    }
+
+    .bgimage h6 {
+        display: none;
+    }
+
+    .bgimage span {
+        display: none;
+    }
+    footer{
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #card-container {
+        top: -130px;
+        right: 65px;
+    }
+
+    #profile-pic {
+        position: relative;
+        bottom: 350px;
+        left: 450px;
+    }
+
+    #table-container {
+        position: relative;
+        bottom: 170px;
+        right: 40px;
+        width: auto;
+    }
+
+    .bgimage h6 {
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 320px;
+    }
+
+    .bgimage span {
+        display: block;
+        position: relative;
+        top: -10px;
+        left: 380px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #card-container {
+        top: -130px;
+        right: 65px;
+    }
+
+    #profile-pic {
+        position: relative;
+        bottom: 350px;
+        left: 450px;
+    }
+
+    #table-container {
+        position: relative;
+        bottom: 170px;
+        right: 40px;
+        width: auto;
+    }
+
+}
