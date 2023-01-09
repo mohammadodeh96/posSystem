@@ -210,10 +210,10 @@ class Model
 
     protected function connection() // connection to database
     {
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $database = "pos_app";
+        $servername = "********";
+        $username = "****";
+        $password = "*****";
+        $database = "*****";
 
        
         $this->connection = new \mysqli($servername, $username, $password, $database);
