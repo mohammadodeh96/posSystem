@@ -18,7 +18,7 @@
     
     <div class="mb-3 ">
         <label for="password" class="form-label">Password</label>
-        <input type="password" " class="form-control" id="quantity" name="password" required>item_id
+        <input type="password" " class="form-control" id="quantity" name="password" required>
     </div>
     <button type="submit" class="btn btn-success mt-4">Save</button>
     <a href="/users" class="btn btn-danger ms-3 mt-4">Cancel</a>
