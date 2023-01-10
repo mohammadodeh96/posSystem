@@ -1,3 +1,10 @@
+# admin credentials for live server
+
+ -username : admin 
+ -password : 123456789
+
+
+
 # POS System API
 
 Response schema: JSON Object { "success": boolean, "message_code": string, "body": Array }
