@@ -1,8 +1,7 @@
 # admin credentials for live server
 
- -username : admin .
- 
- -password : 123456789
+ - username : admin 
+ - password : 123456789
 
 
 
